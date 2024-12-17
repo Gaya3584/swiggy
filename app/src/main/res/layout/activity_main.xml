@@ -1,3 +1,8 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 <LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -323,5 +328,76 @@
                 android:textColor="#000"/>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/bg4"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy Your Welcome Offer!"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Get Flat $10 off your next order"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Want free delivery?"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make your weekdays fun"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Satisfy your cravings differently"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Delivering Happiness"/>
+            </LinearLayout>
         </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All rights reserved @ me"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold|italic"
+            android:textColor="#000"/>
+    </LinearLayout>
 </LinearLayout>
+</ScrollView>
